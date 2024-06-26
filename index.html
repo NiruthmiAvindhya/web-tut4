@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Tutorial 4</title>
+
+    </head>
+
+    <body>
+        <h1 class="h1"><b>Hotel Reservation</b></h1>
+        <form>
+            <fieldset class="fieldset1">
+                <legend><b>Personal Details</b></legend>
+            <label for="name">First name:</label>
+
+            <input type="text" name="name" id="name" placeholder="Enter your first name"><br><br>
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname" placeholder="Enter your surname"><br><br>
+            <label for="email">Email address:</label>
+            <input type="text" name="email" id="email"><br><br>
+            <label for="password">Setup a </label>
+            <input type="password" name="password" id="password" minlength="3"   placeholder="Min 8 characters, use at least 1 caps, no special characters" size="80px"><br>
+            <label>password:</label>
+        </fieldset>
+        </form>
+        <form>
+            <fieldset class="fieldset2">
+                <legend><b>Booking Date</b></legend>
+                <label for="date">Checkin day:</label>
+                <input type="date" name="date" id="date" value="14/02/2023" required><br><br>
+                <label for="numberdays">Number of days:</label>
+                <input type="text" name="number days" id="numberdays"><br><br>
+                <label for="room">Single Room</label>
+                <input type="radio" name="singleroom" id="room"><br><br>
+                <label for="room">Double Room</label> 
+                <input type="radio" name="doubleroom" id="room"><br><br>
+                <label for="room">King Room</label> 
+                <input type="radio" name="kingroom" id="room"><br><br>
+                <label for="breakfast">Breakfast</label>
+                <select name="breakfast" id="breakfast">
+                <option value="Pizza" selected>Pizza</option>
+                <option value="Pasta">Pasta</option>
+                <option value="Pastry">Pastry</option></select><br><br><br>
+                <label for="comment">Special Requirement:</label>
+                
+                <textarea name="comment" id="comment" placeholder="Please provide any requirement" rows="3"></textarea>
+                
+            </fieldset>
+        </form>
+        <form>
+            <fieldset class="fieldset3">
+                <input type="submit" name="send" id="send" value="Send">
+                <input type="reset" name="reset" id="reset" value="Reset">
+
+                
+                
+
+            </fieldset>
+            <hr>
+            <address>niruthmi.20232558@iit.ac.lk<sup>26/06/2024</sup></address>
+
+    </body>
+</html>
