@@ -1,0 +1,78 @@
+.h1 {
+    text-align: center;
+}
+
+#name,
+#email,
+#surname,
+#password 
+{
+    margin-left: 100px;
+
+}
+#name{
+    margin-left: 90px;
+}
+#email{
+    margin-left: 65px;
+}
+#password{
+    margin-left: 110px;
+}
+.fieldset1 {
+    background-color: rgb(183, 183, 239);
+    border-radius: 10px;
+    height: 25vh;
+}
+
+.fieldset2 {
+    background-color: rgb(248, 210, 128);
+    border-radius: 10px;
+    height: 45vh;
+}
+.fieldset3 {
+    background-color: rgb(142, 107, 30);
+    border-radius: 10px;
+    height: 5vh;
+    padding: 20px; 
+    text-align: center; 
+    
+    
+    
+}
+#send,#reset{
+    width: 10%; 
+    padding: 10px;
+    background-color: rgb(0, 204, 255); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+    
+    
+    
+    
+}
+#send{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+#reset{
+    position: absolute;
+    right: 5;
+    margin-left: 380px;
+    
+}
+#room,#date,#numberdays,#breakfast{
+    margin-left: 70px;
+    
+}
+#numberdays{
+    margin-left: 45px;
+}
+#breakfast{
+    mar
+}
